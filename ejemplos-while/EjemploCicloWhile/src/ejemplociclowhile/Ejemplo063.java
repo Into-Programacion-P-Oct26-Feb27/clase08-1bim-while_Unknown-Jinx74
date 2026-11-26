@@ -22,13 +22,16 @@ public class Ejemplo063 {
         String pais;
         String capital;
         String salir;
-
+        String reporte = "";
+        
         while (bandera == true) {
             System.out.println("Ingrese el país");
             pais = entrada.nextLine();
 
             System.out.printf("Ingrese la capital de %s\n", pais);
             capital = entrada.nextLine();
+            
+            reporte = String.format("%s %s %s\n", reporte, pais, capital);
 
             System.out.println("Desea salir del ciclo? S/N");
             salir = entrada.nextLine();
@@ -36,9 +39,9 @@ public class Ejemplo063 {
             if (salir.equals("S")) {
                 bandera = false;
             }
-            System.out.println("Fin del ciclo");
+            
         }
-
+        System.out.println(reporte);
     }
 
     /*
