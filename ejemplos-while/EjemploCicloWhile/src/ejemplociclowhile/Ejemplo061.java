@@ -33,8 +33,7 @@ public class Ejemplo061 {
         
         System.out.println("Ciclo terminado.");
     }
-        
-    /*
+        /*
     El codigo pide un numero que ingresa el usuario, mientras el numero
     ingresado no sea -100, el ciclo sigue en curso y cuando se ingresa el -100
     el ciclo para y se avisa al usuario
